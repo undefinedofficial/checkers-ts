@@ -4,9 +4,9 @@ checkers game validation
 
 get valid moves
 
-```
-  const moves = checkers.moves(square);
-  /**
+```ts
+const moves = checkers.moves(square);
+/**
     [
         {
             from: 'a1';
@@ -22,9 +22,9 @@ get valid moves
 
 move
 
-```
-  const move = checkers.move(fromSquare, toSquare);
-  /**
+```ts
+const move = checkers.move(fromSquare, toSquare);
+/**
         null - invalid move
     or
         {
