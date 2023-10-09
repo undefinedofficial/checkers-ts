@@ -1,0 +1,19 @@
+{
+  "name": "checkers-ts",
+  "version": "1.0.0",
+  "description": "Checkers game validator",
+  "main": "src/index.ts",
+  "files": [
+    "src/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "checkers",
+    "game",
+    "undefinedofficial"
+  ],
+  "author": "undefinedofficial",
+  "license": "ISC"
+}
