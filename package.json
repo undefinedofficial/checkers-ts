@@ -14,6 +14,10 @@
     "game",
     "undefinedofficial"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undefinedofficial/checkers-ts.git"
+  },
   "author": "undefinedofficial",
   "license": "ISC"
 }
