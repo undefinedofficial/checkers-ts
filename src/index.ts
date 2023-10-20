@@ -418,10 +418,10 @@ export function Checkers(initboard?: (PieceSymbol | null)[][], color: Color = "w
   }
 
   /**
-   * Custom rule for draw, if there are more than 10 move without jump
+   * Custom rule for draw, if there are more than 50 move without jump
    */
   function isDraw() {
-    return _lastJump > 10;
+    return _lastJump > 49;
   }
   /*
    * Checks if the game is over
